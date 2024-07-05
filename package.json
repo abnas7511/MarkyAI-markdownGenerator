@@ -27,7 +27,7 @@
       },
       {
         "command": "pipet-code-agent.generateMarkdown",
-        "title": "Pipet: Generate markdownDescription for the selected code."
+        "title": "Pipet: Generate README for the selected code."
       }
     ],
     "configuration": [

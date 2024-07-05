@@ -90,7 +90,7 @@ Generate a README introducing the API key loader script, listing features, and p
 `;
 
 export async function generateMarkdown() {
-    vscode.window.showInformationMessage('Generating Markdown...');
+    vscode.window.showInformationMessage('Generating README...');
 
     const modelName = vscode.workspace.getConfiguration().get<string>('google.gemini.textModel', 'models/gemini-1.0-pro-latest');
 
@@ -116,9 +116,11 @@ export async function generateMarkdown() {
 
     // Build the full prompt using the template.
     const fullPrompt = `${PROMPT}
+
     ${CODE_LABEL}
     ${selectedCode}
     ${README_LABEL}
+
     `;
 
     const result = await model.generateContent(fullPrompt);
@@ -139,7 +141,7 @@ export async function generateMarkdown() {
             // Add a final newline if necessary.
             pyComment += "\n";
         }
-        let commentIntro = padding + commentPrefix + "Markdown : (generated)\n";
+        let commentIntro = padding + commentPrefix + "README : (generated)\n";
         editBuilder.insert(selection.start, commentIntro);
         editBuilder.insert(selection.start, pyComment);
     });
