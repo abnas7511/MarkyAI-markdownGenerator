@@ -19,7 +19,7 @@ The new command added to this extension allows you to generate a well-structured
 
    Since the extension is not yet published on the VS Code Marketplace, you can test it locally by following these steps:
 
-   - Clone or download the Pipet Code Agent repository from GitHub.
+   - Clone or download the this repository.
    - Navigate to the project directory in your terminal.
 
 2. **Install Dependencies**
