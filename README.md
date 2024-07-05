@@ -3,7 +3,7 @@
 I have extended Pipet-code-agent to build an AI code assistant with adding a new feature/command for generating well-formatted GitHub README documents in Markdown based on selected code snippets.
 The Pipet Code Agent is a Visual Studio Code extension developed by Google that leverages the power of the Google Gemini API to assist developers by generating comments and reviews for selected code. 
 
-![thumbnail](escape (1).png)
+! [thumbnail](escape (1).png)
 
 ## Features
 
