@@ -24,6 +24,10 @@
       {
         "command": "pipet-code-agent.nameFunction",
         "title": "Pipet: Name the selected function."
+      },
+      {
+        "command": "pipet-code-agent.generateMarkdown",
+        "title": "Pipet: Generate markdownDescription for the selected code."
       }
     ],
     "configuration": [
