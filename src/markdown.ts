@@ -19,7 +19,6 @@ import * as vscode from 'vscode';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
 // Provide instructions for the AI language model
-// This approach uses a few-shot technique, providing a few examples.
 const CODE_LABEL = 'Here is the code:';
 const COMMENT_LABEL = 'Here is a good comment:';
 const PROMPT = `
@@ -27,8 +26,7 @@ Generate a well-formatted Markdown document based on the following text.
 The document should include appropriate headers, lists, code blocks, and any other relevant Markdown formatting.
 `;
 
-
-export async function generateComment() {
+export async function generateMarkdown() {
     vscode.window.showInformationMessage('Generating Markdown...');
 
     const modelName = vscode.workspace.getConfiguration().get<string>('google.gemini.textModel', 'models/gemini-1.0-pro-latest');
