@@ -1,7 +1,7 @@
-# Pipet Code Agent Extension
+# Pipet Code Agent Extension - Pipet Markdown Generator
 
-The Pipet Code Agent is a Visual Studio Code extension developed by Google that leverages the power of the Google Gemini API to assist developers by generating comments and reviews for selected code. 
 I have extended pipet to include a new command for generating well-formatted GitHub README documents in Markdown based on selected code snippets.
+The Pipet Code Agent is a Visual Studio Code extension developed by Google that leverages the power of the Google Gemini API to assist developers by generating comments and reviews for selected code. 
 
 ## Features
 
