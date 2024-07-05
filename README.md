@@ -77,10 +77,10 @@ The new command added to this extension allows you to generate a well-structured
 
 ### Contributing
 
-Contributions to this extension are welcome! If you have suggestions for improvements or new features, feel free to open an issue or create a pull request on the [Pipet Code Agent GitHub repository](https://github.com/google/generative-ai-docs).
+Contributions to this extension are welcome! If you have suggestions for improvements or new features, feel free to open an issue or create a pull request on the [Pipet Markdown Agent GitHub repository]([https://github.com/google/generative-ai-docs](https://github.com/abnas7511/pipet)).
 
 ### License
 
-This project is licensed under the MIT License.
+This project is licensed under the Apache 2.0 License.
 
 ---
